@@ -6,6 +6,7 @@ const Weather = require('./weatherController');
 
 
 const app = express();
+const port = process.env.PORT || 3000;
 
 // Define path for express config
 const publicDirectoryPath = path.join(__dirname,'../public')
@@ -88,6 +89,6 @@ app.get('*',(req, res) =>{
 
 
 
-app.listen(3000, ()=>{
+app.listen(port, ()=>{
     console.log("server started to listen on port 3000")
 })
