@@ -92,3 +92,6 @@ app.get('*',(req, res) =>{
 app.listen(port, ()=>{
     console.log("server started to listen on port 3000")
 })
+
+// https://git.heroku.com/weather-app-node-rabeeh.git  -- heroku app git url
+// https://weather-app-node-rabeeh.herokuapp.com/ -- heroku app live url
